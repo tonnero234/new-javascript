@@ -22,3 +22,9 @@ console.log(friend.length - 1);
 for (let i = 0; i < friend.length; i++) {
  console.log('do something')
 };
+
+function calcAge(birthYear) {
+ return 2022 - birthYear;
+};
+
+console.log(calcAge(1987));
